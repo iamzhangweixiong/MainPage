@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <declare-styleable name="CustomTopBar">
+        <attr name="navigation_image" format="reference"/>
+        <attr name="right_image" format="reference"/>
+        <attr name="title_text" format="string"/>
+        <attr name="title_text_color" format="color"/>
+        <attr name="title_text_size" format="dimension"/>
+        <attr name="margin_status_bar" format="boolean"/>
+    </declare-styleable>
+
+    <declare-styleable name="IndicatorView2">
+        <attr name="indicator2Color" format="color"/>
+        <attr name="indicator2Width" format="dimension"/>
+    </declare-styleable>
+
+    <declare-styleable name="IndicatorLineView">
+        <attr name="indicatorColor" format="color"/>
+        <attr name="indicatorWidth" format="dimension"/>
+        <attr name="indicatorHeight" format="dimension"/>
+    </declare-styleable>
+</resources>
